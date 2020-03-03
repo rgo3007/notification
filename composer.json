@@ -1,0 +1,32 @@
+{
+    "name": "rgo3007/notification",
+    "description": "this is a library that uses composer oaa the basics for generating email notification",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rogerio Galdino",
+            "email": "rgo3007@hotmail.com",
+            "homepage": "https://diariopigmentado.com.br",
+            "role": "Developer"
+        },
+        {
+            "name": "Rafael",
+            "email": "adv7@hotmail.com",
+            "homepage": "https://helperstohelper.com.br",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "6.1.4"
+    },
+    "config": {
+        "vendor-dir": "lib_ext"
+    },
+    "autoload": {
+        "psr-4": {
+            "Notification\\": "_app"
+        }
+    }
+}
